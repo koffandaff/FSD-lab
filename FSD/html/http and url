@@ -18,6 +18,16 @@ blank line										-----------------------------
 ------------									Body 
 body ( version, )								---------------------
 ----------------
+status line and their meaning:
+404: not found
+400: bad request
+401: Unauthorized
+402: Payment required 
+403: forbideden
+502:  Bad gateway
+503: Serivce Unavailable 
+500: Internal Service error
+
 
 
 --> URL(uniform resource allocator):											[ 	Path	    ] [ query string    ][ fragment]
