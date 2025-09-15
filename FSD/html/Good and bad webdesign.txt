@@ -15,4 +15,5 @@ Concept of Shit webdesign:
 	> poor navigation
 	> Unattractive 
 	> Expectation failure 
+	> Inconsistency
 	> Horizontal Scroll bar (looks shitty)	 
