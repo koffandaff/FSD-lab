@@ -7,21 +7,19 @@ connectionless:  Being connectionless refers to the fact that a connection's lif
 media independent: It's as it states lol
 
 --> How it works:
-Request--						Response:
-							-----------			
---------						Status line ( like 200[ok], 404[not found], etc)
+Request--										Response:
+												-----------			
+--------										Status line ( like 200[ok], 404[not found], etc)
 Request line ( method type: get, post etc)		----------------------------
-------------						header
-Header (meta data)					-----------------------------
-------------						Blank line
-blank line						-----------------------------	
-------------						Body 
-body ( version, )					---------------------
+------------									header
+Header (meta data)								-----------------------------
+------------									Blank line
+blank line										-----------------------------	
+------------									Body 
+body ( version, )								---------------------
 ----------------
 
 
---> URL(uniform resource allocator):						[ 	Path	    ][ query string    ][ fragment]
-	http(protocol)://www(subdomain).google(main-domain).com(:403(port_number)/service/subservice/name=test&pass=123#about
+--> URL(uniform resource allocator):											[ 	Path	    ] [ query string    ][ fragment]
+	http(protocol)://www(subdomain).google(domain).com(top-level domain):403(port_number)/service/subservice/name=test&pass=123#about
 
-Concept of effective web design:
-	> 
