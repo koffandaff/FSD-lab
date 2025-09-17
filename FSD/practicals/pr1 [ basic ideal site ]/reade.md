@@ -35,14 +35,17 @@ The site includes key sections such as Header, Navigation, Sidebar (Aside), Main
 
 ## Reference Ideal Site Layout
 
-![Ideal Site Layout](path_to_ideal_site_image.png)
+
+<img width="416" height="289" alt="image" src="https://github.com/user-attachments/assets/91cfe97d-8f62-4a0d-a621-1ab90dae5c26" />
 
 ---
 
 ## My Output
 
-![My Portfolio Output](image.jpg)
+<img width="1345" height="764" alt="output" src="https://github.com/user-attachments/assets/2f0d70f7-eb8f-44dc-88f9-5ab665f683ed" />
+
 
 ---
 
 This project builds a strong foundation through semantic web principles, good HTML structure, and CSS basics, preparing for further enhancement like responsive design and interactive JavaScript.
+
