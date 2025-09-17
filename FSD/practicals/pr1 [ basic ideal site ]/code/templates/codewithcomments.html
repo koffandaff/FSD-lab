@@ -1,0 +1,103 @@
+<!DOCTYPE html>              <!-- Declares this as an HTML5 document -->
+<html lang="en">             <!-- Root element; lang="en" sets language to English for accessibility -->
+<head>                       <!-- Container for metadata (info about the page, not visible content) -->
+    <!-- Character encoding to support all text/symbols including emojis -->
+    <meta charset="UTF-8">   
+    
+    <!-- Ensures compatibility with Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Makes the page responsive on mobile devices by setting viewport width to device width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Specifies the author of the webpage for search engines and browsers -->
+    <meta name="author" content="Dhruvil">
+    
+    <!-- Keywords for SEO (search engine optimization) to help search engines understand page content -->
+    <meta name="Keyword" content="Portfolio, blog, Web Developer">
+    
+    <!-- Links external CSS file for styling; rel="stylesheet" tells browser this is CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Sets the favicon (small icon) that appears in browser tabs -->
+    <link rel="icon" type="img/png"  href="../img/favicon.png">
+    
+    <!-- Sets the title that appears in the browser tab -->
+    <title>Personal Portfolio</title>
+
+</head>
+<body>                       <!-- Contains all visible content of the webpage -->
+    <header>                 <!-- Semantic element for introductory content/navigation at top of page -->
+        <!-- Main heading for the site (h4 = 4th level heading, smaller than h1-h3) -->
+        <h4> One Peice World</h4>
+        
+        <!-- Paragraph element for descriptive text under the main heading -->
+        <p>Set Sail for Laugh Tale</p>
+
+        <nav>                <!-- Semantic element specifically for navigation links -->
+            <!-- Anchor tags create clickable links; href specifies destination -->
+            <a href="index.html">Home</a>
+            <a href="characters.html">Characters</a>
+            <a href="arc.html">Story Arc</a>
+            <a href="ep.html">Episodes</a>
+            <a href="about.html">about</a>
+        </nav>
+    </header>
+
+    <!-- Semantic element for content tangentially related to main content (sidebar) -->
+    <aside>
+        <!-- h5 = 5th level heading, smaller than h4 -->
+        <h5>Main Characters:</h5>
+        
+        <!-- Unordered list (bulleted list) for character names -->
+        <ul>
+        <li>Roronora Zoro</li>      <!-- List item (individual bullet point) -->
+        <li>Nami</li>               <!-- List item -->
+        <li>Usopp</li>              <!-- List item -->
+        <li>Sanji</li>              <!-- List item -->
+        <li>Tony Chopper</li>       <!-- List item -->
+        <li>Nico Robin</li>         <!-- List item -->
+        <li>Franky</li>             <!-- List item -->
+        <li>Brook</li>              <!-- List item -->
+        <li>Jinbe</li>              <!-- List item -->
+        </ul>
+    </aside>
+
+    <!-- Semantic element for the main content of the page -->
+    <main>
+        <!-- Section groups related content with a specific theme -->
+        <section>
+            <!-- h2 = 2nd level heading, larger than h4/h5 -->
+            <h2> Welcome to the World of One Piece</h2>
+            <!-- Pre-formatted text that preserves spaces and line breaks exactly as typed -->
+            <pre>Explore the adventures of the Straw Hat Pirates as they journey through the Grand Line searching for the ultimate treasure 
+                <!-- Strong tag adds semantic importance AND makes text bold -->
+                <strong>— the One Piece!</strong></pre>
+        </section>
+
+        <section>                   <!-- Another thematic section -->
+            <h2> Featured Story Arc:</h2>
+            <h4>Dressrosa Arc:</h4>    <!-- Sub-heading under the main section heading -->
+            <pre>The Straw Hats confront the powerful warlord 
+                <!-- Bold tag makes text bold for visual emphasis only (no semantic meaning) -->
+                <b>Donquixote Doflamingo</b> in a battle to liberate the island of Dressrosa.</pre>
+        </section>
+
+        <section>                   <!-- Third thematic section -->
+            <h2>Character Spotlight: Monkey D. Luffy</h2>
+            <pre>Luffy is the fearless captain of the <b>Straw Hat Pirates.</b> With his rubber powers from the 
+                <!-- Italic tag makes text italicized for visual emphasis -->
+                <i>Gomu Gomu no Mi</i>, his dream is to become the <b>Pirate King.</b></pre>
+        </section>
+
+    </main>
+    
+    <!-- Semantic element for footer content (copyright, contact info, etc.) -->
+    <footer>
+        <p>© 2025 One Piece Fan Site | Created with ❤️ by a Straw Hat | Contact: 
+            <!-- Mailto link opens default email client when clicked -->
+            <a href="mailto:fanmail@onepiece.com">fanmail@onepiece.com</a></p>
+    </footer>
+    
+</body>
+</html>

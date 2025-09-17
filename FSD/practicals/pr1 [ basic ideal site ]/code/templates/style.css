@@ -1,0 +1,198 @@
+/* Styles the entire webpage body */
+body {
+    /* Sets font family - tries Arial first, then Helvetica, then any sans-serif font */
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /* margin: 0 removes all default spacing around the body element */
+    margin: 0;
+    
+    /* padding: 0 removes all default internal spacing inside the body element */
+    padding: 0;
+    
+    /* Sets background color using hex color code (light grayish blue) */
+    background-color: #f4f4f9;
+    
+    /* Sets text color to dark gray */
+    color: #333;
+}
+
+/* Styles the header section */
+header {
+    /* Dark blue-gray background color */
+    background-color: #2b3e50;
+    
+    /* White text color */
+    color: white;
+    
+    /* padding: 20px adds 20px of internal space on all sides (top, right, bottom, left) */
+    padding: 20px;
+    
+    /* Centers all text horizontally within the header */
+    text-align: center;
+}
+
+/* Styles h4 headings specifically when they're inside header */
+header h4{
+    /* margin: 0 removes all default spacing around the h4 element */
+    margin: 0;
+    
+    /* Makes font size 2 times larger than normal (2em = 2x the current font size) */
+    font-size: 2em;
+}
+
+/* Styles paragraphs specifically when they're inside header */
+header p{
+    /* margin with 4 values: top=5px, right=0, bottom=0, left=0 */
+    /* This adds 5px space above the paragraph but no space on other sides */
+    margin: 5px 0 0;
+    
+    /* Makes text appear slanted/italicized */
+    font-style: italic;
+}
+
+/* Styles the navigation element */
+nav{
+    /* margin-top: 10px adds 10px of space above the nav element only */
+    /* This pushes the nav away from elements above it */
+    margin-top: 10px;
+}
+
+/* Styles anchor links specifically when they're inside nav */
+nav a {
+    /* White text color for links */
+    color: white;
+    
+    /* Removes default underline from links */
+    text-decoration: none;
+    
+    /* margin with 2 values: top/bottom=0, left/right=15px */
+    /* This adds 15px space to left and right of each link */
+    margin: 0 15px;
+    
+    /* Makes link text bold/thick */
+    font-weight: bold;
+    
+    /* Smooth color change over 0.3 seconds when hovering */
+    transition: color 0.3s ease;
+}
+
+/* Styles nav links when mouse hovers over them (:hover is a pseudo-class) */
+nav a:hover {
+    /* Changes text color to yellow when hovering */
+    color: #ffcc00;
+}
+
+/* Styles the aside (sidebar) element */
+aside {
+    /* Darker blue-gray background */
+    background-color: #324a5e;
+    
+    /* White text */
+    color: white;
+    
+    /* padding: 15px adds 15px internal space on all sides */
+    padding: 15px;
+    
+    /* Sets fixed width of 200 pixels */
+    width: 200px;
+    
+    /* Floats element to the left, allowing other content to wrap around it */
+    float: left;
+    
+    /* 100vh = 100% of viewport height (full screen height) */
+    height: 100vh;
+    
+    /* border-box includes padding and border in the width calculation */
+    /* This prevents the element from getting bigger than 200px */
+    box-sizing: border-box;
+}
+
+/* Styles h5 headings specifically when inside aside */
+aside h5{
+    /* margin-top: 0 removes default top spacing, keeping h5 flush with top */
+    margin-top: 0;
+}
+
+/* Styles list items specifically when inside aside ul */
+aside ul li{
+    /* margin with 2 values: top/bottom=18px, left/right=0 */
+    /* This adds 18px space above and below each list item */
+    margin: 18px 0;
+}
+
+/* Styles the main content area */
+main {
+    /* margin-left: 210px pushes main content 210px from the left edge */
+    /* This creates space for the 200px-wide aside plus 10px gap */
+    margin-left: 210px;
+    
+    /* padding: 20px adds 20px internal space on all sides */
+    padding: 20px;
+    
+    /* Includes padding in width calculations */
+    box-sizing: border-box;
+}
+
+/* Styles all section elements */
+section {
+    /* margin-bottom: 30px adds 30px space below each section */
+    /* This separates sections from each other vertically */
+    margin-bottom: 30px;
+}
+
+/* Styles pre elements specifically when inside sections */
+section pre{
+    /* Sets font size to medium (standard size) */
+    font-size: medium;
+}
+
+/* Styles h2 headings specifically when inside sections */
+section h2 {
+    /* Adds a 2px solid line below the heading using the aside background color */
+    border-bottom: 2px solid #324a5e;
+    
+    /* padding-bottom: 8px adds 8px space between heading text and the border line */
+    padding-bottom: 8px;
+    
+    /* Sets heading color to match header background */
+    color: #2b3e50;
+}
+
+/* Styles the footer element */
+footer {
+    /* Same dark background as header */
+    background-color: #2b3e50;
+    
+    /* Light gray text color */
+    color: lightgray;
+    
+    /* Centers text horizontally */
+    text-align: center;
+    
+    /* padding: 15px adds 15px internal space on all sides */
+    padding: 15px;
+    
+    /* position: fixed keeps footer in same position even when scrolling */
+    position: fixed;
+    
+    /* bottom: 0 sticks footer to bottom of screen */
+    bottom: 0;
+    
+    /* width: 100% makes footer span full width of screen */
+    width: 100%;
+}
+
+/* Styles anchor links specifically when inside footer */
+footer a {
+    /* Yellow color for footer links */
+    color: #ffcc00;
+    
+    /* Removes underline from links */
+    text-decoration: none;
+}
+
+/* Styles footer links when hovering */
+footer a:hover {
+    /* Adds underline when mouse hovers over footer links */
+    text-decoration: underline;
+}
