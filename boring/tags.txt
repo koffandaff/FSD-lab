@@ -1,5 +1,7 @@
 id and class
-audio(controls: loop, muted,autoplay) and iframe video(contrils and all
+audio(controls: loop, muted,autoplay) and iframe(external site, maps, yt video, another page) video(contrils and all)
 anchor (target, scroll to top or bottom through id )
-
+list
+https://www.youtube.com/watch?v=QkomtaUcpvM&list=RDQkomtaUcpvM&start_radio=1
 button
+
